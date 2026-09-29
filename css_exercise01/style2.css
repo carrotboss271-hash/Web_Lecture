@@ -1,0 +1,197 @@
+.header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+
+    padding: 25px 0 35px 0;
+
+    border-radius: 15px 15px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+
+    font-size: 36px;
+    letter-spacing: 6px;
+}
+
+.header p {
+    margin-top: 12px;
+
+    font-style: italic;
+}
+
+.profile {
+    background-color: lightblue;
+
+    margin: 20px;
+    padding: 25px;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+
+    border: 4px solid white;
+
+    object-fit: cover;
+
+    margin-right: 25px;
+}
+
+.profile-text h2 {
+    margin-top: 0;
+}
+
+.profile-text p {
+    margin: 15px 0;
+}
+
+.skills {
+    margin: 20px;
+    padding: 20px;
+
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.skills h2 {
+    color: darkblue;
+}
+
+.skills hr {
+    border: 0;
+    border-top: 2px solid darkblue;
+}
+
+.skill-list {
+    margin-top: 15px;
+}
+
+.skill-list p {
+    display: inline-block;
+
+    padding: 8px 12px;
+    margin-right: 10px;
+
+    border-radius: 15px;
+
+    font-weight: bold;
+}
+
+#p1 {
+    background-color: lightgreen;
+}
+
+#p2 {
+    background-color: lightpink;
+}
+
+#p3 {
+    background-color: lightgray;
+}
+
+#p4 {
+    background-color: pink;
+}
+
+.intro {
+    margin: 20px;
+    padding: 20px;
+
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.intro h2 {
+    color: darkblue;
+}
+
+.intro hr {
+    border: 0;
+    border-top: 2px solid darkblue;
+}
+
+.intro p {
+    line-height: 1.8;
+    color: #444;
+}
+
+.question {
+    margin: 20px;
+    padding: 20px;
+
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.question h2 {
+    color: darkblue;
+}
+
+.question hr {
+    border: 0;
+    border-top: 2px solid darkblue;
+}
+
+.form-row {
+    margin: 15px 0;
+}
+
+.form-row label {
+    display: inline-block;
+    width: 70px;
+
+    font-weight: bold;
+}
+
+.form-row input {
+    width: 180px;
+    padding: 8px;
+
+    border: 1px solid gray;
+}
+
+.form-row input:focus {
+    background-color: lightyellow;
+}
+
+.question button {
+    margin-left: 74px;
+    margin-top: 10px;
+
+    padding: 10px 25px;
+
+    background-color: #333;
+    color: white;
+
+    border: none;
+}
+
+.footer {
+    margin: 20px;
+
+    padding: 15px;
+
+    background-color: #222;
+    color: white;
+
+    text-align: center;
+
+    border-radius: 0 0 10px 10px;
+}
+
+body {
+    width: 700px;
+
+    margin: 0 auto;
+
+    font-family: Arial, sans-serif;
+}
