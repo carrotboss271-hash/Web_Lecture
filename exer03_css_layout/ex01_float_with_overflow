@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DU Web</title>
+
+    <link rel="stylesheet" href="ex01.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>DU Web</h1>
+
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">NEWS</a>
+            <a href="#">SHOP</a>
+            <a href="#">LOGIN</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="news">
+            <h2>오늘의 주요 뉴스</h2>
+
+            <p>
+                HTML과 CSS를 이용하여 웹 페이지 레이아웃을 만들어 봅시다.
+            </p>
+
+            <p>
+                이번 실습에서는 float를 이용하여 영역을 수평으로 배치합니다.
+            </p>
+        </section>
+
+
+        <aside class="popular">
+            <h2>인기글</h2>
+
+            <ol>
+                <li>HTML 기초</li>
+                <li>CSS 선택자</li>
+                <li>JavaScript</li>
+            </ol>
+        </aside>
+
+    </main>
+
+
+    <footer>
+        Copyright © DU Web
+    </footer>
+
+</body>
+</html>
