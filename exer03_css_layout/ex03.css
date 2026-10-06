@@ -1,0 +1,132 @@
+body {
+    width: 790px;
+    margin: 20px auto;
+}
+
+
+header {
+    background: #8b1e20;
+    color: white;
+
+    text-align: center;
+
+    padding: 30px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+
+nav {
+    overflow: hidden;
+    background: #a51e20;
+}
+
+nav a {
+    float: left;
+
+    width: 20%;
+
+    padding: 12px 0;
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+    border-right: 1px solid white;
+    box-sizing: border-box;
+}
+
+
+#middle {
+    overflow: hidden;
+}
+
+
+#profile {
+    float: left;
+
+    width: 20%;
+    height: 277px;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    background: #f9dada;
+}
+#profile p {
+    line-height: 1.6;
+    word-break: break-all;
+}
+
+
+#projects {
+    float: left;
+
+    width: 60%;
+    height: 277px;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    background: #fffafa;
+}
+
+
+#skills {
+    float: right;
+
+    width: 20%;
+    height: 277px;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    background: #f9dada;
+}
+
+
+#profile h2,
+#projects h2,
+#skills h2 {
+    color: #a51e20;
+}
+
+
+.project {
+    border: 1px solid #ffb0b0;
+
+    background: #fff1f1;
+
+    padding: 12px;
+
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    margin: 0;
+}
+
+.project p {
+    margin: 5px 0 0;
+}
+
+footer {
+    clear: both;
+
+    padding: 18px 0;
+
+    background: #52090b;
+
+    color: white;
+
+    text-align: center;
+}
