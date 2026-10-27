@@ -1,0 +1,42 @@
+body {
+    width: 790px;
+    margin: 20px auto;
+}
+
+
+header {
+    background: #8b1e20;
+    color: white;
+
+    text-align: center;
+
+    padding: 30px 0;
+}
+
+header h1 {
+    margin: 5px 0 0;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+nav {
+    overflow: hidden;
+    background: #a51e20;
+}
+
+nav a {
+    float: left;
+
+    width: 20%;
+
+    padding: 12px 0;
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+    border-right: 1px solid white;
+    box-sizing: border-box;
+}
