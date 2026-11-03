@@ -7,10 +7,14 @@
 
     <script>
         window.onload = function(){
-             let header1 = document.querySelector('h1');
+            let headers = document.querySelectorAll('h1');
 
-        header1.style.color = 'blue';
+            for (let i=0; i<headers.length; i++){
+            let header = headers[i];
+
+            header.style.color = 'orange';
         }
+    }
     </script>
 </head>
 <body>
