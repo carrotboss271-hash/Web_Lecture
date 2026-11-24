@@ -1,0 +1,118 @@
+<!-- <script>
+    window.onload = function() {
+        let attri = document.getElementById("text");
+
+        // 기존 속성 값 가져오기
+        let color = attri.getAttribute("style");
+
+        // 속성 값 변경하기
+        attri.setAttribute("style", "color: red;");
+    };
+</script>
+<body>
+    <p id="text" style="color: blue;">안녕하세요!</p>
+</body> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Basic</title>
+
+    <script>
+        // 이벤트를 연결합니다.
+        window.onload = function () {
+            // 변수를 선언합니다.
+            let image = document.getElementById('image');
+
+            // 속성을 변경합니다.
+            image.src = 'http://via.placeholder.com/300x200';
+            image.width = 300;
+            image.height = 200;
+        };
+    </script>
+</head>
+<body>
+    <img id="image">
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Traditional Event</title>
+    <script>
+        // 이벤트를 연결합니다.
+        window.onload = function () {
+
+            // 문서 객체를 선택합니다.
+            let button = document.getElementById('button');
+
+            // 이벤트를 연결합니다.
+            button.onclick = function () {
+                alert('click');
+            };
+        };
+    </script>
+</head>
+<body>
+    <button id="button">버튼</button>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Event</title>
+</head>
+<body>
+    <h2>JavaScript 클릭 이벤트</h2>
+
+    <p id="message">버튼을 클릭해보세요.</p>
+    <button id="btn">클릭하기</button>
+
+    <script>
+        let btn = document.querySelector("#btn");
+        let message = document.querySelector("#message");
+
+        btn.addEventListener("click", function() {
+            message.textContent = "버튼이 클릭되었습니다!";
+            message.style.color = "blue";
+            document.body.style.backgroundColor = "lightyellow";
+        });
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Mouse Event</title>
+</head>
+<body>
+    <h2>JavaScript 마우스 이벤트</h2>
+
+    <div id="box" style="width:300px; height:150px;
+        background-color:lightgray; text-align:center;">
+        마우스를 올려보세요!
+    </div>
+
+    <script>
+        let box = document.querySelector("#box");
+
+        // 마우스를 올렸을 때
+        box.addEventListener("mouseover", function() {
+            box.style.backgroundColor = "skyblue";
+            box.textContent = "마우스가 올라왔습니다!";
+        });
+
+        // 마우스가 벗어났을 때
+        box.addEventListener("mouseout", function() {
+            box.style.backgroundColor = "lightgray";
+            box.textContent = "마우스를 올려보세요!";
+        });
+    </script>
+</body>
+</html>
